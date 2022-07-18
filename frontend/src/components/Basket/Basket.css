@@ -1,0 +1,40 @@
+.basket {
+
+}
+
+.basket__close {
+
+}
+
+.basket__order-list {
+    margin-top: 20px;
+}
+
+.basket__top {
+    height: 72px;
+    border-bottom: 1px solid grey;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.basket__total-amount {
+    margin: 0;
+}
+
+.basket__payment {
+    position: absolute;
+    bottom: 10px;
+    border-radius: 4px;
+    box-shadow: 2px 3px 4px;
+    width: 95%;
+    height: 70px;
+    background-color: var(--brand-color);
+    color: var(--white);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: var(--main-font);
+    font-weight: normal;
+    font-size: 14px;
+}

@@ -1,0 +1,45 @@
+.preview-card__delivery {
+  display: flex;
+  justify-content: space-between;
+  width: 319px;
+  margin: 0 auto;
+  align-items: center;
+  height: 32px;
+  margin-bottom: 38px;
+  flex-shrink: 1;
+}
+
+.preview-card__restaurant-name {
+  font-family: var(--main-font);
+  color: var(--main-font-color);
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 42px;
+  margin-top: 38px;
+  flex-wrap: wrap;
+  margin-left: 35px;
+}
+
+.preview-card__delivery__currency {
+  font-family: var(--main-font);
+  color: var(--second-font-color);
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.preview-card__delivery__time {
+  font-family: var(--main-font);
+  color: var(--white);
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 15px;
+  width: 97px;
+  height: 32px;
+  background: var(--purple);
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}

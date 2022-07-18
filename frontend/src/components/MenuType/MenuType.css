@@ -1,0 +1,33 @@
+.menu-type__section-menu {
+  padding-top: 60px;
+}
+
+.menu-type {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  overflow: hidden;
+}
+
+.menu-type__wrapper {
+  width: 962px;
+  margin: 0 auto;
+}
+
+.menu-type__name {
+  font-family: var(--main-font);
+  color: var(--main-font-color);
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 34px;
+  /*margin-top: 56px;*/
+  margin-bottom: 32px;
+  padding-top: 200px;
+  margin-top: -200px;
+}
+
+.menu-type__dish {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}

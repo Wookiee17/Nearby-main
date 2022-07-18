@@ -1,0 +1,13 @@
+.footer {
+  min-height: 116px;
+  background: var(--black);
+}
+
+.footer__fixed {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 116px;
+  max-width: 962px;
+  bottom: 0;
+}

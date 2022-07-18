@@ -1,0 +1,83 @@
+.dish {
+  width: 470px;
+  max-height: 170px;
+  border: var(--border);
+  border-radius: 4px;
+  margin-bottom: 22px;
+  position: relative;
+}
+
+.dish__basket {
+  display: flex;
+  text-decoration: none;
+  justify-content: space-between;
+  height: 100%;
+  width: inherit;
+}
+
+.dish__basket:hover {
+  background: var(--hover-card-color);
+}
+
+.dish__description {
+  padding: 16px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.dish__name {
+  font-family: var(--main-font);
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--main-font-color);
+  margin: 0;
+}
+
+.dish__additive {
+  font-family: var(--main-font);
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 21px;
+  color: var(--second-font-color);
+  margin-top: 4px;
+  margin-bottom: 0;
+  height: 42px;
+  width: inherit;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
+
+.dish__price {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 21px;
+  color: var(--main-font-color);
+  margin: 0;
+}
+
+.dish__photo-preview {
+  width: 170px;
+  height: 160px;
+  flex-shrink: 0;
+}
+
+.dish__amount {
+  position: absolute;
+  
+  top: 0;
+  right: 0;
+  width: 20px;
+  height: 20px;
+  color: white;
+  background-color: rgb(128, 0, 107);
+}
+
+.dish--in-basket {
+  border: var(--border-in-basket);
+}
